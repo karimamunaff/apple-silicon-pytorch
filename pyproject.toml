@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pytorch-gpu-benchmarks"
+version = "0.1.0"
+description = "pytorch gpu benchmarks"
+authors = ["karim"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = [
+        {url = "https://download.pytorch.org/whl/nightly/cpu/torch-1.13.0.dev20220625-cp39-none-macosx_11_0_arm64.whl", platform="darwin"},
+        {url="https://download.pytorch.org/whl/torch-1.11.0-cp39-cp39-manylinux2014_aarch64.whl",platform="linux"}
+        ] 
+torchvision = [
+        {url = "https://download.pytorch.org/whl/nightly/cpu/torchvision-0.14.0.dev20220625-cp39-cp39-macosx_11_0_arm64.whl", platform="darwin"},
+        {url="https://download.pytorch.org/whl/torchvision-0.12.0-cp39-cp39-manylinux2014_aarch64.whl",platform="linux"}
+        ] 
+typer = "^0.4.1"
+tqdm = "^4.64.0"
+numpy = "^1.23.0"
+pydantic = "^1.9.1"
+[tool.poetry.dev-dependencies]
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
