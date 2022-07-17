@@ -40,7 +40,7 @@ Both Macbook Pro and Mac Studio performed at the same speed around 260-270 image
 
 The Mac studio on the other hand barely reached 57C and the fan never crossed 1500 RPM, hence the machine was super silent. 
 
-Considering MAC Studio for the specs desribed above is $1000 less than Macbook pro, i would recommend gettig it + a small M1 Macbook air for portability. The final price of Mac Studio + M1 Macbook air would still be cheaper than a single Macbook pro for the specs described above.  
+Considering MAC Studio for the specs desribed above is $1000 less than Macbook pro, i would recommend getting it + a small M1 Macbook air for portability. The final price of Mac Studio + M1 Macbook air would still be cheaper than a single Macbook pro for the specs described above.  
 
 
 
