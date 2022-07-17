@@ -10,9 +10,10 @@ or, if you want more control
 USE_GPU=1 NUM_IMAGES=1000 BATCH_SIZE=64 IMAGE_MODEL=resnet50 make image
 ```
 
-- USE_GPU = Flag to run on GPU. Set it to 0 to run on CPU only.
-- NUM_IMAGES = Number of images to generate
-- BATCH_SIZE = batch size for running inference. 64 looks to be a sweet spot for apple silicon
+- `USE_GPU`: Flag to run on GPU. Set it to 0 to run on CPU only.
+- `NUM_IMAGES`: Number of images to generate
+- `BATCH_SIZE`: Batch size for running inference. 64 looks to be a sweet spot for apple silicon
+- `IMAGE_MODEL`: Select image models from torchvision. Refer https://pytorch.org/vision/0.8/models.html.
 
 # Overview
 - Compare pytorch performance across different apple silicon models
