@@ -1,9 +1,14 @@
 import logging
+from stat import filemode
 
-def get_logger(logger_name:str, file_name:str):
-    logger = logging.getLogger(logger_name)
-    logger.setLevel(logging.DEBUG)
-    file_handler = logging.FileHandler(file_name)
-    file_handler.setLevel(logging.DEBUG)
-    logger.addHandler(file_handler)
-    return logger
+
+def setup_logger(file_name: str):
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(filename)s-%(asctime)s - %(levelname)s - %(message)s",
+        handlers=[
+            logging.FileHandler(file_name, mode="a"),
+            logging.StreamHandler(),
+        ],
+    )
+    logging.info("START")

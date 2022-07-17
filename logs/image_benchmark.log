@@ -1,0 +1,5 @@
+logger.py-2022-07-17 16:39:51,659 - INFO - START
+image_benchmark.py-2022-07-17 16:39:51,660 - INFO - Running Image Model resnet50 with use_gpu=True batch_size=64 and num_images=1000
+image_benchmark.py-2022-07-17 16:39:51,660 - INFO - DEVICE:Mac M1 GPU detected!
+image_benchmark.py-2022-07-17 16:39:52,139 - INFO - Image Model loaded on device = mps
+image_benchmark.py-2022-07-17 16:39:56,346 - INFO - Finished 1000 images in 4.1979 seconds
