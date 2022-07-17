@@ -1,7 +1,5 @@
-# Requirements
-- homebrew
-
 # Usage
+Requirements: `Homebrew`
 ```
 make image  
 ```
