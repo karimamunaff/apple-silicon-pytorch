@@ -9,7 +9,7 @@ make image
 or, if you want more control
 
 ```
-USE_GPU=1 NUM_IMAGES=1000 BATCH_SIZE=64 IMAGE_MODEL=resnet50 
+USE_GPU=1 NUM_IMAGES=1000 BATCH_SIZE=64 IMAGE_MODEL=resnet50 make image
 ```
 
 - USE_GPU = Flag to run on GPU. Set it to 0 to run on CPU only.
