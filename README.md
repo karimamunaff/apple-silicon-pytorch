@@ -42,5 +42,22 @@ The Mac studio on the other hand barely reached 57C and the fan never crossed 15
 
 Considering MAC Studio for the specs desribed above is $1000 less than Macbook pro, i would recommend getting it + a small M1 Macbook air for portability. The final price of Mac Studio + M1 Macbook air would still be cheaper than a single Macbook pro for the specs described above.  
 
+Macbook Pro log
+```
+image_benchmark.py-2022-07-17 17:30:43,147 - INFO - Running Image Model resnet50 with use_gpu=True batch_size=64 and num_images=100000
+image_benchmark.py-2022-07-17 17:30:43,147 - INFO - DEVICE:Mac M1 GPU detected!
+image_benchmark.py-2022-07-17 17:30:43,609 - INFO - Image Model loaded on device = mps
+Running Inference:: : 100032it [06:44, 247.20it/s]
+image_benchmark.py-2022-07-17 17:37:28,271 - INFO - Finished 100000 images in 404.6518 seconds
+```
+
+Mac Studio Log
+```
+image_benchmark.py-2022-07-17 17:19:07,246 - INFO - Running Image Model resnet50 with use_gpu=True batch_size=64 and num_images=100000
+image_benchmark.py-2022-07-17 17:19:07,246 - INFO - DEVICE:Mac M1 GPU detected!
+image_benchmark.py-2022-07-17 17:19:07,710 - INFO - Image Model loaded on device = mps
+Running Inference:: : 100032it [06:20, 263.10it/s]
+image_benchmark.py-2022-07-17 17:25:27,926 - INFO - Finished 100000 images in 380.2072 seconds
+```
 
 
