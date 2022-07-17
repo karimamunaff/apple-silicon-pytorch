@@ -30,7 +30,7 @@ Only image models are supported as of now
 
 # Results
 
-## Comparing different MACs with the same spec
+## 1. Comparing different MACs with the same spec
 Compared Macbook pro 14 inch 2021 and Mac Studio with the following specs.
 - 64 GB RAM
 - M1 MAX 32 core
