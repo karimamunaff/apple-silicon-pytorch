@@ -87,4 +87,4 @@ Running Inference::   9%|████████▋
 ```
 
 # Community Request
-I would greatly appreciate if this repo could grow and people could add the benchmarks they obtained on their machines, thanks!
+I would greatly appreciate if this repo could grow and people could add benchmarks they obtained on their machines, thanks!
