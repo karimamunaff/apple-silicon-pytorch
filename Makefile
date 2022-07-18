@@ -43,14 +43,14 @@ install_poetry:
 install_dependencies: install_python39 install_poetry 
 	@poetry install
 	@echo "Installing pytorch separately as poetry's platform specific installation doesn't work as intended for pytorch"
-ifeq ($(UNAME),Darwin)
-	@poetry add https://download.pytorch.org/whl/nightly/cpu/torch-1.13.0.dev20220717-cp39-none-macosx_11_0_arm64.whl
-	@poetry add https://download.pytorch.org/whl/nightly/cpu/torchvision-0.14.0.dev20220715-cp39-cp39-macosx_11_0_arm64.whl
-endif
-ifeq ($(UNAME),Linux)
-	@poetry add https://download.pytorch.org/whl/cu116/torch-1.12.0%2Bcu116-cp39-cp39-linux_x86_64.whl
-	@poetry add https://download.pytorch.org/whl/cu116/torchvision-0.13.0%2Bcu116-cp39-cp39-linux_x86_64.whl
-endif
+# ifeq ($(UNAME),Darwin)
+# 	@poetry add https://download.pytorch.org/whl/nightly/cpu/torch-1.13.0.dev20220717-cp39-none-macosx_11_0_arm64.whl
+# 	@poetry add https://download.pytorch.org/whl/nightly/cpu/torchvision-0.14.0.dev20220715-cp39-cp39-macosx_11_0_arm64.whl
+# endif
+# ifeq ($(UNAME),Linux)
+# 	@poetry add https://download.pytorch.org/whl/cu116/torch-1.12.0%2Bcu116-cp39-cp39-linux_x86_64.whl
+# 	@poetry add https://download.pytorch.org/whl/cu116/torchvision-0.13.0%2Bcu116-cp39-cp39-linux_x86_64.whl
+# endif
 
 setup: install_dependencies
 	@echo "Setup Completed!"
