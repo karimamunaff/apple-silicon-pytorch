@@ -81,9 +81,13 @@ image_benchmark.py-2022-07-17 17:25:27,926 - INFO - Finished 100000 images in 38
 
 ### RTX 3090 log
 ```
+image_benchmark.py-2022-07-18 04:07:20,340 - INFO - Running Image Model resnet50 with use_gpu=True batch_size=64 and num_images=100000
+image_benchmark.py-2022-07-18 04:07:20,340 - INFO - DEVICE:Nvidia GPU detected with Cudnn = True!
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+100%|█████████████████████████████████████████████| 97.8M/97.8M [00:00<00:00, 363MB/s]
 image_benchmark.py-2022-07-18 04:07:22,069 - INFO - Image Model loaded on device = cuda
-Running Inference::   9%|████████▋                                                                                             
-| 8512/100000 [01:21<14:17, 106.69it/s]
+Running Inference:: : 100032it [15:38, 106.62it/s]
+image_benchmark.py-2022-07-18 04:23:00,259 - INFO - Finished 100000 images in 938.1882 seconds
 ```
 
 # Summary
