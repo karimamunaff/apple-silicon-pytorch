@@ -1,13 +1,15 @@
 # Overview
-- Compare pytorch ML inference performance across different apple silicon models
+- Compare pytorch ML inference performance across different apple silicon models and linux+cuda machines
+- Runs on MacOS M1 GPUS and NVIDIA GPUS on Linux
 - Easy to setup and run
 - No need to use huge image datasets. Code generates images randomly. This is fine because the SSDs in the apple silicon laptops are not the bottleneck
+- 
 
 ## Current Version = 0.1.0
 Only image models are supported as of now
 
 # Usage
-Requirements: `Homebrew`
+`Requirements: cmake for MAC & Linux, homebrew for MAC`
 
 Run resnet50 inference using
 ```
@@ -28,6 +30,13 @@ USE_GPU=1 NUM_IMAGES=1000 BATCH_SIZE=64 IMAGE_MODEL=resnet50 make image
 ## Why not use datasets like CIFAR?
 Smaller datasets like CIFAR10 are not a good indicator of measring speed. This is because the whole CIFAR10 is < 200MB but in real world scenarios, training involves on millions of images which can go > 1TB. The real world bottleneck while training images lies in preprocessing and smaller datasets are not good to measure that
 
+# Running on Linux?
+
+Run the following commands before running the benchmarks
+
+```
+
+```
 # Results
 
 ## 1. Comparing different MACs with the same spec

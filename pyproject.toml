@@ -8,8 +8,6 @@ authors = ["karim <karimamunaff@gmail.com>"]
 python = "^3.9"
 tqdm = "^4.64.0"
 typer = "^0.6.1"
-torch = {url = "https://download.pytorch.org/whl/nightly/cpu/torch-1.13.0.dev20220717-cp39-none-macosx_11_0_arm64.whl"}
-torchvision = {url = "https://download.pytorch.org/whl/nightly/cpu/torchvision-0.14.0.dev20220715-cp39-cp39-macosx_11_0_arm64.whl"}
 pydantic = "^1.9.1"
 black = "^22.6.0"
 isort = "^5.10.1"
