@@ -86,4 +86,5 @@ Running Inference::   9%|████████▋
 | 8512/100000 [01:21<14:17, 106.69it/s]
 ```
 
+# Community Request
 I would greatly appreciate if this repo could grow and people could add the benchmarks they obtained on their machines, thanks!
