@@ -38,7 +38,7 @@ endif
 endif
 
 install_poetry:
-	@pip install "poetry==$(POETRY_VERSION)"
+	@pip3 install "poetry==$(POETRY_VERSION)"
 
 install_dependencies: install_python39 install_poetry 
 	@poetry install
