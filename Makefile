@@ -16,6 +16,7 @@ endef
 
 define install_python39_linux
 	apt -y update
+	apt -y install python3-pip
 	apt -y install software-properties-common
 	add-apt-repository ppa:deadsnakes/ppa -y
 	DEBIAN_FRONTEND=noninteractive apt -y install python3.9
