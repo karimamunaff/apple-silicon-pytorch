@@ -25,7 +25,7 @@ endef
 
 install_python39:
 ifeq ("$(PYTHON_VERSION_MINOR)", "3 9")
-	echo "Python 3.9 found"
+	@echo "Python 3.9 found. Installing ..."
 else
 ifeq ($(UNAME),Darwin)
 	echo "Installing Python 3.9 on MAC OS"
@@ -33,7 +33,7 @@ ifeq ($(UNAME),Darwin)
 endif
 ifeq ($(UNAME),Linux)
 	$(call install_python39_linux)
-	echo "Linux!"
+	@echo "Linux!"
 endif
 endif
 
