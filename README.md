@@ -49,6 +49,10 @@ Compared Macbook pro 14 inch 2021 and Mac Studio with the following specs.
 - M1 MAX 32 core
 - 2TB SSD
 
+RTX 3090 Machine Spec
+ - 24 GB GPU RAM
+ - AMD epyc 7302 16-core processor with 64 GB RAM
+
 Both Macbook Pro and Mac Studio performed at the same speed around 260-270 images per second BUT the macbook pro was heating up to 99C and the fans went up >6000 RPM and the noise was audible. The bottom of the macbook pro was quite hot, even the keyboard was getting warmer. The battery was draining fast too. Similar results with or without plugged in. 
 
 The Mac studio on the other hand barely reached 57C and the fan never crossed 1500 RPM, hence the machine was super silent. 
@@ -75,7 +79,7 @@ Running Inference:: : 100032it [06:20, 263.10it/s]
 image_benchmark.py-2022-07-17 17:25:27,926 - INFO - Finished 100000 images in 380.2072 seconds
 ```
 
-### RTX log
+### RTX 3090 log
 ```
 image_benchmark.py-2022-07-18 04:07:22,069 - INFO - Image Model loaded on device = cuda
 Running Inference::   9%|████████▋                                                                                             
