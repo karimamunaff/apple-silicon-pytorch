@@ -92,4 +92,4 @@ In general, i noticed that the GPU part of RTX 3090 to be faster than M1 Max GPU
 
 I also noticed that when i updated the nighly build version of pytorch for M1 to the latest, i was getting around 40% speedup, which is crazy. The number of images per second went from 170 to almost 260. This means that there are a lot of ml operations yet to be optimized for M1 MAX's GPU and the pytorch community is putting thier best effort. I greatly appreciate all the pytorch developers for all their work in supporting M1 GPUs. 
 
-I would greatly appreciate if this repo could grow and people could add benchmarks they obtained on their machines, thanks!
+Please feel free to add benchmarks obtained on your machines and provide feedback, thanks!
