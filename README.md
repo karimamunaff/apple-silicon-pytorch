@@ -36,7 +36,7 @@ USE_GPU=1 NUM_IMAGES=1000 BATCH_SIZE=64 IMAGE_MODEL=resnet50 make image
 # Image Dataset
 Randomly generated matrices, no need of huge terrabytes of images
 
-`NOTE: torch dataloaders in this project doesn't use multiprocessing as i got some serialization errors. So, the preprocessing uses only a single CPU. This might be a good thing as it reduces unfair advantage of using multiple processes. If someone is able to fix this multithreading issue, i would greatly appreciate it`
+`NOTE: torch dataloaders in this project doesn't use multiprocessing as i got some serialization errors. So, the preprocessing uses only one CPU core. This might be a good thing as it reduces unfair advantage of using multiple processes. If someone is able to fix this multithreading issue, i would greatly appreciate it`
 
 ### Why not use datasets like CIFAR?
 Smaller datasets like CIFAR10 are not a good indicator of measring speed. This is because the whole CIFAR10 is < 200MB but in real world scenarios, training involves on millions of images which can go > 1TB. The real world bottleneck while training images lies in preprocessing and smaller datasets are not good to measure that
