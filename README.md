@@ -4,7 +4,7 @@
 - Easy to setup and run on both MacOS and Linux
 - No need to use huge image datasets. Code generates images randomly. This is fine because the SSDs in the apple silicon laptops are not the bottleneck
 
-## Current Version = 0.1.0
+### Current Version = 0.1.0
 Only image models are supported as of now
 
 # First Steps
