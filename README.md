@@ -12,11 +12,9 @@ Only image models are supported as of now
 ### MacOS
 1. Homebrew (https://brew.sh/)
 2. cmake (brew install cmake)
-3. pip3
 
 ### Linux
 1. cmake (apt-get install cmake)
-2. pip3
 
 ## Usage
 Run resnet50 inference using
