@@ -3,7 +3,6 @@
 - Runs on MacOS M1 GPUS and NVIDIA GPUS on Linux
 - Easy to setup and run
 - No need to use huge image datasets. Code generates images randomly. This is fine because the SSDs in the apple silicon laptops are not the bottleneck
-- 
 
 ## Current Version = 0.1.0
 Only image models are supported as of now
