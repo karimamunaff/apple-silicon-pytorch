@@ -59,7 +59,7 @@ The Mac studio on the other hand barely reached 57C and the fan never crossed 15
 
 Considering MAC Studio for the specs desribed above is $1000 less than Macbook pro, i would recommend getting it + a small M1 Macbook air for portability. The final price of Mac Studio + M1 Macbook air would still be cheaper than a single Macbook pro for the specs described above.  
 
-RTX 3090 on the other hand was only half as fast, this could be due to the CPU bottleneck involved in preprocessing. 
+RTX 3090 was very slow compared to M1 MAX (see below), this could be due to the CPU bottleneck involved in preprocessing. 
 
 ### Macbook Pro log
 ```
