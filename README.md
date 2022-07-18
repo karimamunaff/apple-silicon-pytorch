@@ -86,5 +86,10 @@ Running Inference::   9%|████████▋
 | 8512/100000 [01:21<14:17, 106.69it/s]
 ```
 
-# Community Request
+# Summary
+
+In general, i noticed that the GPU part of RTX 3090 to be faster than M1 Max GPU by atleast 2x but if you are training images, you will end up spending >90% of the time in preprocessing if not optimized. I guess this is why M1 MAXs came out to be faster, their combined CPU and GPU throughput is quite high.
+
+I also noticed that when i updated the nighly build version of pytorch for M1 to the latest, i was getting around 40% speedup, which is crazy. The number of images per second went from 170 to almost 260. This means that there are a lot of ml operations yet to be optimized for M1 MAX's GPU and the pytorch community is putting thier best effort. I greatly appreciate all the pytorch developers for all their work in supporting M1 GPUs. 
+
 I would greatly appreciate if this repo could grow and people could add benchmarks they obtained on their machines, thanks!
