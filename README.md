@@ -44,12 +44,12 @@ Smaller datasets like CIFAR10 are not a good indicator of measring speed. This i
 # Results
 
 ## 1. Comparing different MACs with the same spec and RTX 3090
-Compared Macbook pro 14 inch 2021 and Mac Studio with the following specs.
+Macbook pro 14 inch 2021 and Mac Studio Specs
 - 64 GB RAM
 - M1 MAX 32 core
 - 2TB SSD
 
-RTX 3090 Machine Spec
+RTX 3090 Machine Specs
  - 24 GB GPU RAM
  - AMD epyc 7302 16-core processor with 64 GB RAM
 
